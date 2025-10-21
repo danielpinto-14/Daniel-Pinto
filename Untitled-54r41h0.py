@@ -1,0 +1,34 @@
+print("Insira os dados do item 1")
+nome1 = input("Nome do item 1: ")
+preco1 = float(input("Preço do item 1 (em euros): "))
+quantidade1 = int(input("Qualidade do item 1: "))
+
+print("\nInsira os dados do item 2")
+nome2 = input("Nome do item 2: ")
+preco2 = float(input("Preço do item 2: "))
+quantidade2 = int(input("Qualidade do item 2: "))
+
+print("\nInsira os dados do item 3")
+nome3 = input("Nome do item 3: ")
+preco3 = float(input("Preço do item 3: "))
+quantidade3 = int(input("Qualidade do item 3: "))
+
+print("\nInsira os dados do item 4")
+nome4 = input("Nome do item 4: ")
+preco4 = float(input("Preço do item 4: "))
+quantidade4 = int(input("Qualidade do item 4: "))
+
+valor_total1 = preco1 * quantidade1
+valor_total2 = preco2 * quantidade2
+valor_total3 = preco3 * quantidade3
+valor_total4 = preco4 * quantidade4
+
+valor_total_stock = valor_total1 + valor_total2 + valor_total3 + valor_total4 
+
+print("\nResumo do Stock: ")
+print("Item 1" + nome1 + " | Preço: €" + str(preco1) + " | Quantidade: " + str(quantidade1) + " | Valor Total: €" + str(valor_total1))
+print("Item 2" + nome2 + " | Preço: €" + str(preco2) + " | Quantidade: " + str(quantidade2) + " | Valor Total: €" + str(valor_total2))
+print("Item 3" + nome3 + " | Preço: €" + str(preco3) + " | Quantidade: " + str(quantidade3) + " | Valor Total: €" + str(valor_total3))
+print("Item 4" + nome4 + " | Preço: €" + str(preco4) + " | Quantidade: " + str(quantidade4) + " | Valor Total: €" + str(valor_total4))
+
+print("\nValor Total do Stock: €" + str(valor_total_stock))

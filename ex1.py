@@ -1,5 +1,4 @@
 #Pedir o nome do Aluno:
-
 sobrenome = input ("Qual o seu sobrenome: ")
 nome = "Vamos fazer cálculos :)"
 print("Olá Sharks: ", nome, sobrenome) 
@@ -30,3 +29,13 @@ nota4 = 172
 nota5 = 49
 media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 print("a média dos cinco números é de: ", media)
+
+#Variável:
+variavel = input ("Daniel")
+print("Bem vindo à Shark: ", variavel)
+
+#Multiplicação2:
+numero7  = 1234567890.234567890
+numero8 = 9765456788123.93232345
+multiplicacao2 = numero7 * numero8
+print("O Resultado é de: ", multiplicacao2)
