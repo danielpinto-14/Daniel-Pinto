@@ -21,6 +21,7 @@ def Menu():
     escolha = int(input("Escolha: "))
     return escolha
 
+
 def Main():
     Cabeçalho("JOGO DE LUTA")
     input("\n\nPrime Start para começar (enter)") 
@@ -32,7 +33,7 @@ def Main():
         elif escolha == 1:
             while True:
 
-                listaPersonagens = ["Blanka", "Ryu", "Dalshim", "Songoku"]
+                listaPersonagens = ["Frankenstein", "Mickey", "Pacman", "Hulk"]
 
                 Cabeçalho("Escolher Personagem de Player1")
 
@@ -58,7 +59,7 @@ def Main():
                         print("Erro!")
                         input("Enter P/ Continuar")
 
-                        return             
+                        return              
                 else:
                     print("Erro!")
                     input("Enter P/ Continuar")
@@ -68,7 +69,7 @@ def Main():
         elif escolha == 2:
             while True:
 
-                listaPersonagens = ["Blanka", "Ryu", "Dalshim", "Songoku"]
+                listaPersonagens = ["BLANKA", "RYU", "SONGOKU", "SEIYA"]
 
                 Cabeçalho("Escolher Personagem de Player1")
 
@@ -94,17 +95,15 @@ def Main():
                         print("Erro!")
                         input("Enter P/ Continuar")
 
-                        return             
+                        return              
                 else:
                     print("Erro!")
                     input("Enter P/ Continuar")
 
                 input("Enter P/ Continuar")
 
-from random import randint
-
 player1 = 30
-cpu = 30
+CPU = 30
 
 def Luta(soco):
     global player1
@@ -112,12 +111,12 @@ def Luta(soco):
     print()
 
 def LutaDeBoxB(soco):
-    global cpu
-    cpu = cpu - soco
+    global CPU
+    CPU = CPU - soco
     print()
 
 def Soco():
-    soco = (4, 7)
+    soco = (5)
     return soco
 
 player1 = 30
@@ -134,7 +133,7 @@ def LutaDeBoxB(soco):
     print()
 
 def Soco():
-    soco = (4, 7)
+    soco = (5)
     return soco
 
 
@@ -157,9 +156,3 @@ def Soco():
 
 
 Main()
-
-Soco()
-
-Luta()
-
-LutaDeBoxB()
